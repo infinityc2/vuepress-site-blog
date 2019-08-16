@@ -7,7 +7,7 @@
   "devDependencies": {},
   "scripts": {
     "dev": "vuepress dev",
-    "prod": "vuepress build"
+    "product": "vuepress build"
   },
   "keywords": [],
   "author": "",
