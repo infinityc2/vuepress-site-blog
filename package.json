@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "vuepress": "^1.0.3"
+  },
   "devDependencies": {},
   "scripts": {
     "dev": "vuepress dev",
