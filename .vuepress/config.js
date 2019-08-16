@@ -1,0 +1,31 @@
+module.exports = {
+    title: 'JDev Blogs',
+    description: 'A Blog Static Site',
+    head: [
+        ['link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css'}]
+    ],
+    themeConfig: {
+        sidebar: [
+            {
+                title: 'Home',
+                collabsable: false,
+                path: '/'
+            },
+            {
+                title: 'Blog',
+                collapsable: false,
+                path: '/blogs',
+                children: [
+                    '/blogs/blog01',
+                    '/blogs/blog02',
+                ]
+            }
+        ]
+    },
+    markdown: {
+        config: md => {
+            md.use(require("markdown-it-anchor")),
+            md.use(require("markdown-it-table-of-contents"))
+        }
+    }
+}
