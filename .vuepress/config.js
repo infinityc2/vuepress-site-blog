@@ -20,7 +20,9 @@ module.exports = {
                     '/blogs/blog02',
                 ]
             }
-        ]
+        ],
+        repo: 'infinityc2/vuepress-site-blog',
+        repoLabel: 'Contribute!'
     },
     markdown: {
         config: md => {
