@@ -7,17 +7,13 @@ module.exports = {
     themeConfig: {
         sidebar: [
             {
-                title: 'Home',
-                collabsable: false,
-                path: '/'
-            },
-            {
                 title: 'Blog',
                 collapsable: false,
                 path: '/blogs',
                 children: [
                     '/blogs/blog01',
                     '/blogs/blog02',
+                    '/blogs/blog03'
                 ]
             }
         ],
