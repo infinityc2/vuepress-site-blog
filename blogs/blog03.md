@@ -1,5 +1,5 @@
 ---
-title: Network
+title: การทำงานของ Spanning-Tree Protocol
 tags: network
 categories:
     - Network
@@ -9,7 +9,7 @@ categories:
     - Computer Network
 ---
 
-# [Network]การทำงานของ Spanning-Tree Protocol
+# [Network] การทำงานของ Spanning-Tree Protocol
 
 ![stp](https://miro.medium.com/max/486/1*turiWb2J__ip2sw68MEVeA.png)
 
@@ -54,10 +54,15 @@ Loop ก็คือ สถานะที่อุปกรณ์ส่งข�
 ![stp](https://miro.medium.com/max/588/1*jHHDl0qtBD1FKxQaEoN8Ng.png)
 
 หา Root Port พิจารณาจาก Path Cost ในที่นี้เป็น FastEthernet(100 Mbps) = 19 ให้พิจารณาแต่ละตัว 
+
 `SW-C ไปยัง fa 0/1 = 19, `
+
 `SW-C ไปยัง fa 0/2 -> fa 0/24 = 38,`
+
 `SW-B ไปยัง fa 0/24 = 19, `
+
 `SW-B ไปยัง fa 0/1 -> fa 0/1 = 38 `
+
 เราจะได้ Switch ที่มี Root Port ที่ SW-B ที่ fa 0/24 และ SW-C ที่ fa 0/1
 
 ![stp](https://miro.medium.com/max/577/1*IxyjsflyptuU472_aS9K4A.png)

@@ -1,5 +1,5 @@
 ---
-title: GoCD
+title: เครื่องมือการทำ CI/CD กับ GoCD
 tags: infrastructure
 categories:
     - GoCD
@@ -9,7 +9,7 @@ categories:
     - Continuous Delivery
 ---
 
-# [GoCD]เครื่องมือการทำ CI/CD กับ GoCD
+# [GoCD] เครื่องมือการทำ CI/CD กับ GoCD
 
 ![gocd](https://miro.medium.com/proxy/1*J2iFOKfLesB6PafNvjYUsw.png)
 

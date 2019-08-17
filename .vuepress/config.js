@@ -13,7 +13,8 @@ module.exports = {
                 children: [
                     '/blogs/blog01',
                     '/blogs/blog02',
-                    '/blogs/blog03'
+                    '/blogs/blog03',
+                    '/blogs/blog04'
                 ]
             }
         ],
