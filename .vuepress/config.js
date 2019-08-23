@@ -18,6 +18,9 @@ module.exports = {
                 ]
             }
         ],
+        nav: [
+            {text: 'Medium', link: 'https://medium.com/@infinityc222'}
+        ],
         repo: 'infinityc2/vuepress-site-blog',
         repoLabel: 'Contribute!'
     },
