@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'JDev Blogs',
+    title: 'JDev',
     description: 'A Blog Static Site',
     head: [
         ['link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css'}]
