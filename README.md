@@ -29,7 +29,14 @@ Certified of Junior High School
 
 * Suansri Wittaya School | 2010 - 2012
 
+## Skills
+* Vue.js
+* Angular
+* Spring Boot
+* Firebase
+
 ## Achievement
+* My Better Country Hackathon
 * SUT Startup Camp #15
 * Design Thinking #21
 * Course of machine learning
