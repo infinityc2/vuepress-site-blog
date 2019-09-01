@@ -9,9 +9,12 @@
   "devDependencies": {},
   "scripts": {
     "dev": "vuepress dev",
-    "product": "vuepress build"
+    "build": "vuepress build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vuepress",
+    "markdown"
+  ],
+  "author": "infinityc2",
   "license": "ISC"
 }
